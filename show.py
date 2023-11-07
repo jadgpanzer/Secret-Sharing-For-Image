@@ -1,0 +1,15 @@
+import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
+fig, ax = plt.subplots()
+image1 = mpimg.imread("Origin.png")
+ax.imshow(image1)
+image2 = mpimg.imread("00.png")
+ax.imshow(image2)
+image3 = mpimg.imread("11.png")
+ax.imshow(image3)
+image4 = mpimg.imread("22.png")
+ax.imshow(image4)
+image5 = mpimg.imread("33.png")
+ax.imshow(image5)
+ax.axis('off')
+plt.show()
